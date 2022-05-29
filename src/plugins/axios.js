@@ -7,6 +7,7 @@ const { cookies } = useCookies();
 
 axios.defaults.baseURL = "http://127.0.0.1:5000/";
 axios.defaults.withCredentials = true;
+axios.defaults.headers.common["X-CSRF-Token"] = cookies.get("CSRF-Token");
 
 axios.interceptors.request.use(
   (config) => {
