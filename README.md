@@ -21,3 +21,9 @@ community things are included like: highscores, ticketing system(for the sake of
 This product is in the early stage of development and is not near ready for production.
 
 Make sure to check out [Backend API](https://github.com/damianpawlikowski/lunar) of this project.
+
+
+## Screenshots
+![account](https://i.imgur.com/qhi5pR2.png)
+![highscores](https://i.imgur.com/yEHDZ5T.png)
+![tickets](https://i.imgur.com/LhVL5cj.png)
